@@ -5,7 +5,7 @@ import {useContext, useState} from "react";
 import {AuthContext} from "../../../context/AuthContext"
 
 const PanelProjectsTailwind = () => {
-    const [menuOpenedTwo, setMenuOpenedTwo] = useState(false)
+    const [menuOpenedTwo, setMenuOpenedTwo] = useState(true)
     const {
         userId,
         logoName,
