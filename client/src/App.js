@@ -12,6 +12,7 @@ import RendersKinki from "./Pages/Renders/RendersKinki/Renders"
 import RendersKonst from "./Pages/Renders/RendersKonst/RendersKonst";
 import RendersJovanova from "./Pages/Renders/RendersJavanova/RendersJovanova";
 import RendersDesk from "./Pages/Renders/RendersDesk/RendersDesk";
+import RendersRailing from "./Pages/Renders/RendersRailng/RendersRailing";
 
 function App() {
     const {login, logout, token, userId, isReady, logoName, arrNew, setArrNew, allProjects, setAllProjects, allElem, setAllElem, idProject, setIdProject} = useAuth()
@@ -29,6 +30,7 @@ function App() {
                                 <Route path="/renderjovanova" element={<RendersJovanova/>}/>
                                 <Route path="/renderskonst" element={<RendersKonst/>}/>
                                 <Route path="/renderdesk" element={<RendersDesk/>}/>
+                                <Route path="/railing" element={<RendersRailing/>}/>
                             </Route>
                             <Route path="/" element={<MainPage isLogin={isLogin} logoName={logoName}/>}/>
                             <Route path="/login" element={<SignIn/>}/>

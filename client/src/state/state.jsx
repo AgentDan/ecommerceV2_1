@@ -230,4 +230,24 @@ export const store = [
             }
         ]
     },
+    {
+        id: v1(),
+        name: "railing",
+        projects: [
+            {
+                id: v1(),
+                check: false,
+                nameProject: "RailingLINE",
+                def: [
+                    // {file: "railingLine"},
+                ],
+                components: [
+                    {id: v1(), groupElements: 0, name: "Black", file: "railingLineBlack", check: true},
+                    {id: v1(), groupElements: 0, name: "Gray", file: "railingLineGray", check: false},
+                    // {id: v1(), groupElements: 1, name: "deskRackTrue", file: "deskRack1", check: true},
+                    // {id: v1(), groupElements: 1, name: "deskRackFalse", file: "deskRack2", check: false},
+                ]
+            }
+        ]
+    },
 ]
