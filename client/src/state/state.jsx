@@ -236,7 +236,7 @@ export const store = [
         projects: [
             {
                 id: v1(),
-                check: false,
+                check: true,
                 nameProject: "RailingLINE",
                 def: [
                     // {file: "railingLine"},
@@ -244,8 +244,22 @@ export const store = [
                 components: [
                     {id: v1(), groupElements: 0, name: "Black", file: "railingLineBlack", check: true},
                     {id: v1(), groupElements: 0, name: "Gray", file: "railingLineGray", check: false},
-                    // {id: v1(), groupElements: 1, name: "deskRackTrue", file: "deskRack1", check: true},
-                    // {id: v1(), groupElements: 1, name: "deskRackFalse", file: "deskRack2", check: false},
+                    // {id: v1(), groupElements: 1, name: "Black", file: "railingRodBlack", check: true},
+                    // {id: v1(), groupElements: 1, name: "Gray", file: "railingRodGray", check: false},
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "RailingROD",
+                def: [
+                    // {file: "railingLine"},
+                ],
+                components: [
+                    // {id: v1(), groupElements: 0, name: "Black", file: "railingLineBlack", check: true},
+                    // {id: v1(), groupElements: 0, name: "Gray", file: "railingLineGray", check: false},
+                    {id: v1(), groupElements: 0, name: "Black", file: "railingRodBlack", check: true},
+                    {id: v1(), groupElements: 0, name: "Gray", file: "railingRodGrey", check: false},
                 ]
             }
         ]
