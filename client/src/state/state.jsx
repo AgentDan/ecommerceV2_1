@@ -236,8 +236,8 @@ export const store = [
         projects: [
             {
                 id: v1(),
-                check: true,
-                nameProject: "RailingLINE",
+                check: false,
+                nameProject: "RailingOne",
                 def: [
                     // {file: "railingLine"},
                 ],
@@ -251,7 +251,7 @@ export const store = [
             {
                 id: v1(),
                 check: false,
-                nameProject: "RailingROD",
+                nameProject: "RailingTwo",
                 def: [
                     // {file: "railingLine"},
                 ],
@@ -260,6 +260,62 @@ export const store = [
                     // {id: v1(), groupElements: 0, name: "Gray", file: "railingLineGray", check: false},
                     {id: v1(), groupElements: 0, name: "Black", file: "railingRodBlack", check: true},
                     {id: v1(), groupElements: 0, name: "Gray", file: "railingRodGrey", check: false},
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "RailingThree",
+                def: [
+                    // {file: "railingLine"},
+                ],
+                components: [
+                    // {id: v1(), groupElements: 0, name: "Black", file: "railingLineBlack", check: true},
+                    // {id: v1(), groupElements: 0, name: "Gray", file: "railingLineGray", check: false},
+                    {id: v1(), groupElements: 0, name: "Black", file: "railingThreeBlack", check: true},
+                    {id: v1(), groupElements: 0, name: "Gray", file: "railingThreeGrey", check: false},
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "RailingFour",
+                def: [
+                    // {file: "railingLine"},
+                ],
+                components: [
+                    // {id: v1(), groupElements: 0, name: "Black", file: "railingLineBlack", check: true},
+                    // {id: v1(), groupElements: 0, name: "Gray", file: "railingLineGray", check: false},
+                    {id: v1(), groupElements: 0, name: "Black", file: "railingFourBlack", check: true},
+                    {id: v1(), groupElements: 0, name: "Gray", file: "railingFourGrey", check: false},
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "RailingFive",
+                def: [
+                    // {file: "railingLine"},
+                ],
+                components: [
+                    // {id: v1(), groupElements: 0, name: "Black", file: "railingLineBlack", check: true},
+                    // {id: v1(), groupElements: 0, name: "Gray", file: "railingLineGray", check: false},
+                    {id: v1(), groupElements: 0, name: "Black", file: "railingFiveBlack", check: true},
+                    {id: v1(), groupElements: 0, name: "Gray", file: "railingFiveGray", check: false},
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "RailingSix",
+                def: [
+                    // {file: "railingLine"},
+                ],
+                components: [
+                    // {id: v1(), groupElements: 0, name: "Black", file: "railingLineBlack", check: true},
+                    // {id: v1(), groupElements: 0, name: "Gray", file: "railingLineGray", check: false},
+                    {id: v1(), groupElements: 0, name: "Black", file: "railingSixBlack", check: true},
+                    {id: v1(), groupElements: 0, name: "Gray", file: "railingSixGray", check: false},
                 ]
             }
         ]
